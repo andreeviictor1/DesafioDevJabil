@@ -49,9 +49,3 @@ Este projeto é uma aplicação web simples de gerenciamento de usuários, const
 
 
 
-### Frontend
-
-1. Navegue até a pasta do frontend:
-    ```bash
-    cd ../frontend
-
