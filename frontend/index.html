@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Usuários</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+            max-width: 500px;
+        }
+        .title {
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+        .subtitle {
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+        .form-control {
+            margin-bottom: 15px;
+        }
+        .btn {
+            margin-top: 10px;
+        }
+        #errorMsg {
+            display: none;
+            color: red;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 class="title">Gerenciamento de Usuários</h1>
+
+    <div id="auth">
+        <h4 class="subtitle">Login</h4>
+        <input type="email" id="loginEmail" class="form-control" placeholder="Email" required>
+        <input type="password" id="loginSenha" class="form-control" placeholder="Senha" required>
+        <button id="loginBtn" class="btn btn-primary btn-block">Login</button>
+        <button id="registerShowBtn" class="btn btn-secondary btn-block">Registrar</button>
+        <div id="errorMsg"></div>
+    </div>
+
+    <div id="register" style="display: none;">
+        <h4 class="subtitle">Registrar Novo Usuário</h4>
+        <input type="text" id="registerNome" class="form-control" placeholder="Nome" required>
+        <input type="email" id="registerEmail" class="form-control" placeholder="Email" required>
+        <input type="password" id="registerSenha" class="form-control" placeholder="Senha" required>
+        <button id="registerBtn" class="btn btn-primary btn-block">Registrar</button>
+        <button id="backToLoginBtn" class="btn btn-secondary btn-block">Voltar ao Login</button>
+    </div>
+
+    <div id="userManagement" style="display: none;">
+        <h4 class="subtitle">Gerenciar Usuários</h4>
+        <button id="getUsersBtn" class="btn btn-success btn-block">Obter Todos os Usuários</button>
+        <button id="getUserByIdBtn" class="btn btn-primary btn-block">Obter Usuário por ID</button>
+        <button id="updateUserBtn" class="btn btn-warning btn-block">Atualizar Usuário</button>
+        <button id="deleteUserBtn" class="btn btn-danger btn-block">Deletar Usuário</button>
+        <div id="result" class="result"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    ports:
+      - "5227:80"
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile  # Certifique-se de referenciar o nome correto
+    ports:
+      - "3000:3000"
