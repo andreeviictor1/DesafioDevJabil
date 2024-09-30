@@ -49,18 +49,18 @@ Este projeto é uma aplicação web simples de gerenciamento de usuários, const
 
 ### Evidências
 1. Swagger da API
-![image](https://github.com/user-attachments/assets/a8f6ce84-7c00-4a54-8b1c-a0bb3665a655)
+  ![image](https://github.com/user-attachments/assets/a8f6ce84-7c00-4a54-8b1c-a0bb3665a655)
 
 
 2. Tela de Login para Gerenciar os usuarios
-![image](https://github.com/user-attachments/assets/365f35b8-2354-47d3-b471-2c19924d6c8d)
+  ![image](https://github.com/user-attachments/assets/365f35b8-2354-47d3-b471-2c19924d6c8d)
 
 2.1 Se ainda nao tem registro, clique em "Registrar" e preencha a tela
-![image](https://github.com/user-attachments/assets/8d055175-f10a-4208-bd35-9cc2e0294796)
+  ![image](https://github.com/user-attachments/assets/8d055175-f10a-4208-bd35-9cc2e0294796)
 
 
 3. Tela principal
-![image](https://github.com/user-attachments/assets/70e456df-5044-42de-ae47-4d517258c911)
+  ![image](https://github.com/user-attachments/assets/70e456df-5044-42de-ae47-4d517258c911)
 
 4. Mostrando Funcionalidades
    4.1 Opção -> Obter todos os Usuários
@@ -68,6 +68,8 @@ Este projeto é uma aplicação web simples de gerenciamento de usuários, const
    
    4.2 Opção -> Obter usuário por ID
    ![image](https://github.com/user-attachments/assets/5f3d38be-2a8a-444d-8de8-a89a7b5ac262)
+
+
    id selecionado "5"
    ![image](https://github.com/user-attachments/assets/1f09a8f2-2458-41d1-9c77-1c1584cee0cf)
    
