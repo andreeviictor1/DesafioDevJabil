@@ -64,23 +64,32 @@ Este projeto é uma aplicação web simples de gerenciamento de usuários, const
 
 4. Mostrando Funcionalidades
    4.1 Opção -> Obter todos os Usuários
+   
    ![image](https://github.com/user-attachments/assets/92d299d5-148d-411a-b2b7-3e5b183c0312)
    
    4.2 Opção -> Obter usuário por ID
+
+   
    ![image](https://github.com/user-attachments/assets/5f3d38be-2a8a-444d-8de8-a89a7b5ac262)
 
 
    id selecionado "5"
+
+   
    ![image](https://github.com/user-attachments/assets/1f09a8f2-2458-41d1-9c77-1c1584cee0cf)
    
    4.3 Opção -> Atualiza Usuário
    ![image](https://github.com/user-attachments/assets/b781d2ba-4e8e-4442-ae6b-891fa494b47f)
+
+
    ![image](https://github.com/user-attachments/assets/be50193a-da35-46d5-80a3-415b3dea111b)
 
 
 ### Banco de dados
 1. Estrutura do Database
-![image](https://github.com/user-attachments/assets/24b7cd25-b931-416d-ac05-7675e9478ff4)
+
+   
+   ![image](https://github.com/user-attachments/assets/24b7cd25-b931-416d-ac05-7675e9478ff4)
 
 
 
