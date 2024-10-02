@@ -69,13 +69,13 @@ Este projeto é uma aplicação web simples de gerenciamento de usuários, const
  <br />
 ![image](https://github.com/user-attachments/assets/92d299d5-148d-411a-b2b7-3e5b183c0312)
 
-<br />
 4.2 Opção -> Obter usuário por ID
-<br />
+  <br />
+  
 ![image](https://github.com/user-attachments/assets/5f3d38be-2a8a-444d-8de8-a89a7b5ac262)
-
+  <br />
 ![image](https://github.com/user-attachments/assets/1f09a8f2-2458-41d1-9c77-1c1584cee0cf)
-
+  <br />
 4.3 Opção -> Atualiza Usuário<br />
 ![image](https://github.com/user-attachments/assets/b781d2ba-4e8e-4442-ae6b-891fa494b47f)
 
